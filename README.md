@@ -2,8 +2,6 @@
 ### 🌱 About me
 
 - Not much here yet
-- Contact:
-  - Facebook: [facebook.com/mateusz.filipowicz.10](https://www.facebook.com/mateusz.filipowicz.10)
 
 <!--
 **filipowm/filipowm.github.io** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
