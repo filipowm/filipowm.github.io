@@ -1,0 +1,58 @@
+@import 'https://fonts.googleapis.com/css?family=VT323';
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    color-scheme: light dark;
+
+    /* replace colors from here... */
+    --light-mode-background: 240 240 240;
+    --light-mode-foreground: 0 0 0;
+    --light-mode-foreground-special: 124 252 0;
+    --light-mode-foreground-muted: 50 50 50;
+    --light-mode-icon-link-background: 255 255 255;
+    --light-mode-icon-link-background-hover: 240 240 240;
+    --light-mode-icon-link-outline: 50 50 50;
+    --light-mode-icon-link-outline-hover: 0 0 0;
+    --light-mode-icon-link-text: 0 0 0;
+    --light-mode-icon-link-text-hover: 0 0 0;
+    --light-mode-custom-link-background: 255 255 255;
+    --light-mode-custom-link-background-hover: 240 240 240;
+    --light-mode-custom-link-outline: 50 50 50;
+    --light-mode-custom-link-outline-hover: 0 0 0;
+    --light-mode-custom-link-text: 0 0 0;
+    --light-mode-custom-link-text-hover: 0 0 0;
+    --dark-mode-background: 16 18 20;
+    --dark-mode-foreground: 255 255 255;
+    --dark-mode-foreground-special: 124 252 0;
+    --dark-mode-foreground-muted: 193 195 193;
+    --dark-mode-icon-link-background: 38 40 41;
+    --dark-mode-icon-link-background-hover: 49 52 49;
+    --dark-mode-icon-link-outline: 112 113 114;
+    --dark-mode-icon-link-outline-hover: 124 252 0;
+    --dark-mode-icon-link-text: 255 255 255;
+    --dark-mode-icon-link-text-hover: 124 252 0;
+    --dark-mode-custom-link-background: 38 40 41;
+    --dark-mode-custom-link-background-hover: 49 52 49;
+    --dark-mode-custom-link-outline: 112 113 114;
+    --dark-mode-custom-link-outline-hover: 124 252 0;
+    --dark-mode-custom-link-text: 255 255 255;
+    --dark-mode-custom-link-text-hover: 124 252 0;
+    /* ...to here */
+  }
+
+  body {
+    background-color: light-dark(
+      rgb(var(--light-mode-background)),
+      rgb(var(--dark-mode-background))
+    );
+  }
+}
+
+*, :after, :before, html {
+  box-sizing: border-box;
+}
+

@@ -1,0 +1,36 @@
+---
+const {text} = Astro.props;
+---
+
+
+<div class="flex flex-col h-full items-center justify-center text-center">
+    <h1 class="mb-4 text-6xl font-semibold dark:text-darkModeIconLinkOutlineHover">404</h1>
+    <p class="mb-4 text-lg text-lightModeForegroundMuted dark:text-darkModeForegroundMuted">{text}</p>
+    <div class="animate-bounce">
+        <svg class="mx-auto h-16 w-16 dark:text-darkModeIconLinkOutlineHover" fill="none" viewBox="0 0 24 24"
+             stroke="currentColor">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                  d="M12 19l9 2-9-18-9 18 9-2zm0 0v-8"></path>
+        </svg>
+    </div>
+
+    <p class="mt-4 text-lightModeForegroundMuted dark:text-darkModeForegroundMuted">Let's get you back
+        <span class="inline-flex items-center">
+            <a href="/" class=" bg-lightModeIconLinkBackground dark:bg-darkModeIconLinkBackground hover:bg-lightModeIconLinkBackgroundHover dark:hover:bg-darkModeCustomLinkBackgroundHover dark:hover:text-darkModeCustomLinkOutlineHover ring-lightModeIconLinkOutlineHover dark:ring-darkModeIconLinkOutlineHover transition-colors rounded-full ring-2 px-2 py-1 text-xs me-1 ms-0.5 mb-1">home</a>
+        </span>
+    </p>
+
+
+</div>
+
+<!--<div class="flex flex-col items-center justify-center h-screen text-center">-->
+<!--    <h1 class="mb-4 text-6xl font-semibold text-red-500">404</h1>-->
+<!--    <p class="mb-4 text-lg text-gray-600">{text}</p>-->
+<!--    <div class="animate-bounce">-->
+<!--        <svg class="mx-auto h-16 w-16 text-red-500" fill="none" viewBox="0 0 24 24" stroke="currentColor">-->
+<!--            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 19l9 2-9-18-9 18 9-2zm0 0v-8"></path>-->
+<!--        </svg>-->
+<!--    </div>-->
+<!--    <p class="mt-4 text-gray-600">Let's get you back <a href="/" class="text-blue-500">home</a>.</p>-->
+<!--</div>-->
+

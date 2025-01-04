@@ -1,0 +1,13 @@
+---
+import BaseLayout from "@/layouts/BaseLayout.astro";
+
+import SeoPage from "@/components/SeoPage.astro";
+import NotFound from "@/components/NotFound.astro";
+---
+
+<BaseLayout>
+    <SeoPage slot="head"/>
+    <main>
+        <NotFound text="Oops! Looks like you're lost."/>
+    </main>
+</BaseLayout>

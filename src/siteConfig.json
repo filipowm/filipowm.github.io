@@ -1,0 +1,40 @@
+{
+  "name": "Mateusz Filipowicz",
+  "bio": "Experienced software engineer and engineering manager, passionate about healthcare, automation, and software craftsmanship.",
+  "profilePicture": "/avatar.jpg",
+  "url": "https://filipowm.pl",
+  "iconLinks": [
+    {
+      "id": "1728534577185",
+      "icon": "linkedin",
+      "url": "https://www.linkedin.com/in/mateusz-f-437b4768/"
+    },
+    {
+      "id": "1728534577186",
+      "icon": "github",
+      "url": "https://github.com/filipowm"
+    },
+    {
+      "id": "1728534577187",
+      "icon": "facebook",
+      "url": "https://twitter.com/mateusz.filipowicz.10"
+    },
+    {
+      "id": "1735949617653",
+      "icon": "instagram",
+      "url": "https://instagram.com/takeyourtimeaway"
+    },
+    {
+      "id": "1735949756212",
+      "icon": "steam",
+      "url": "https://steamcommunity.com/profiles/76561198154703222/"
+    }
+  ],
+  "customLinks": [
+    {
+      "id": "1728534585738",
+      "title": "Check out my blog!",
+      "url": "/blog"
+    }
+  ]
+}
