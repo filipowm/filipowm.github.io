@@ -4,6 +4,7 @@ export default {
   future: {
     hoverOnlyWhenSupported: true,
   },
+  darkMode: 'media',
   plugins: [require("@tailwindcss/typography")],
   theme: {
     extend: {
