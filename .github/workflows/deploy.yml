@@ -22,7 +22,7 @@ jobs:
           persist-credentials: 'true'
           lfs: 'true'
       - name: Install, build, and upload your site output
-        uses: withastro/action@v2
+        uses: withastro/action@v3
         with:
           node-version: 23
   deploy:
